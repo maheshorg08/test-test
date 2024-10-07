@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Test8t
+  description: This is a sample component generated from the inner-sourcing template.
+  proimary owner name: Mahesh
+  proimary owner email: mahesh.gowripatnam@hcl.com
+  secondaty owner name: Test
+  secondary owner email: user1@dmmp.com
+  annotations:
+    github.com/project-slug: Mahesh/Test8t
+spec:
+  type: service
+  lifecycle: production
+  primary owner: Mahesh
+  implementsApis:
+    - my-api
+  system: examples
+  repository:
+    type: git
+    url: https://github.com/maheshorg08/test-test
+    path: /
